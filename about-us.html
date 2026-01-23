@@ -35,6 +35,7 @@
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a></li>
           <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="staff.html">Staff</a></li>
           <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
           <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
         </ul>
@@ -47,54 +48,99 @@
 <h1>About Us</h1>
  
 <div>
-    <section>
-                <!-- placeholder -->
-            <div>
-                <!-- banner -->
-                 <div style="background-color: f4f4f4; padding: 20px; text-align: center; margin-bottom: 20px;">
-                   
-                   
-                 </div>
-   
-                 <div style="display: flex; flex-wrap: wrap; flex-direction: row; align-items: flex-start; text-align: center;">
-                <div class="map-container">
-                <!-- Google Map -->
-               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d680.3200682046345!2d-7.322790490178034!3d55.00264620849098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485fe180335aa009%3A0x9891404a7b74ac64!2sNorth%20West%20Regional%20College!5e0!3m2!1sen!2suk!4v1765979309929!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-               
-                <div style="flex: 1; padding-left: 10px;">
-                    <h2>RePhone</h2><br>
-   
-                
-                    Opening Times: 09:15am - 05:00pm<br>
-                    BT48 7AL <br><br>
-                    Email: <a href="mailto:info@RePhone.com">info@RePhone.com</a><br><br>
-                    Tel: 02838394489 <br><br> <h4> </h4>
-                    </div>
-                </div>
-            </div>
-            </div>
-    </div>
-    </section>
-    </div>
+<section>
+<!-- banner -->
+<div style="background-color: f4f4f4; padding: 20px; text-align: center; margin-bottom: 20px;">
+ </div>
 
-<!--Footer-->
-<footer class="bg-body-tertiary text-center">
-  <!-- Grid container -->
-  <div class="container p-4"></div>
-  <!-- Grid container -->
-        <a href="https://www.facebook.com" target="_blank" style="margin: 0 50px"><img src="images/facebook_icon.png" alt="facebook" style="height: 75px;"></a>
-        <a href="https://www.twitter.com" target="_blank" style="margin: 0 50px "><img src="images/X_icon.svg.png" alt="twitter" style="height : 75px"></a>
-        <a href="https://www.instagram.com" target="_blank" style="margin: 0 50px"><img src="images/Instagram_icon.png" alt="instagram" style="height : 75px"></a>
-        </div>
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(10, 101, 187, 0.05);">
-    © 2026 Copyright:
-    <a class="text-body" href="https://RePhone.com/">RePhone.com</a>
+   <div style="display: flex; flex-wrap: wrap; flex-direction: row; align-items: flex-start; text-align: center;">
+    <div class="map-container">
+    <!-- Google Map -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d680.3200682046345!2d-7.322790490178034!3d55.00264620849098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485fe180335aa009%3A0x9891404a7b74ac64!2sNorth%20West%20Regional%20College!5e0!3m2!1sen!2suk!4v1765979309929!5m2!1sen!2suk" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+<!--Tabs Start-->
+<ul class="nav nav-underline" role="tablist">
+  <li class="nav-item">
+    <a
+      class="nav-link active"
+      data-bs-toggle="tab"
+      href="#home"
+      role="tab"
+      aria-selected="true"
+    >
+      Home
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      data-bs-toggle="tab"
+      href="#profile"
+      role="tab"
+      aria-selected="false"
+    >
+      Opening Times
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      data-bs-toggle="tab"
+      href="#contact"
+      role="tab"
+      aria-selected="false"
+    >
+      Contact
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true">
+      Disabled
+    </a>
+  </li>
+</ul>
+<div class="tab-content mt-3">
+  <div class="tab-pane fade show active" id="home" role="tabpanel">
+    <h4>RePhone</h4>
+    <p>Welcome to our website!</p>
+    <p>We are located in Derry, Northern Ireland.</p>
+    <p>BT48 7AL</p>
   </div>
-  <!-- Copyright -->
+  <div class="tab-pane fade" id="profile" role="tabpanel">
+    <h4>Opening Times</h4>
+    <p>Opening Times: 09:15am - 05:00pm</p>
+    <p>We are open at these times every day!</p>
+  </div>
+  <div class="tab-pane fade" id="contact" role="tabpanel">
+    <h4>Contact</h4>
+    <p>Our Email is info@RePhone.com</p>
+    <p>Email us if you have any problems at all!</p>
+  </div>
+</div>
+<!--Tabs End-->
+
+<!-- Footer -->
+<footer class="bg-body-tertiary text-center w-100 mt-auto">
+  <div class="container-fluid p-4 d-flex justify-content-center gap-5">
+    <a href="https://www.facebook.com" target="_blank">
+      <img src="images/facebook_icon.png" alt="facebook" height="75">
+    </a>
+    <a href="https://www.twitter.com" target="_blank">
+      <img src="images/X_icon.svg.png" alt="twitter" height="75">
+    </a>
+    <a href="https://www.instagram.com" target="_blank">
+      <img src="images/Instagram_icon.png" alt="instagram" height="75">
+    </a>
+  </div>
+
+  <div class="p-3" style="background-color: rgba(10, 101, 187, 0.05);">
+    © 2026 <a class="text-body" href="https://RePhone.com/">RePhone.com</a>
+  </div>
 </footer>
-<!--Footer end -->
+
+<!-- Footer end -->
+
 
     <!-- Javascripts -->
     <script src="js/bootstrap.bundle.min.js"></script>
