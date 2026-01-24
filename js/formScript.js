@@ -1,7 +1,7 @@
 function myFormSubmits(event) {
-    event.preventDefault(); // Prevent the default form submission
+    event.preventDefault();
 
-    // Call the custom functions you want to execute before submitting the form
+    
     downloadFormData();
     thanks();
 }
@@ -15,14 +15,14 @@ function downloadFormData() {
         dataString += `${key}: ${value}\n`;
     }
 
-    // Create a Blob from the data string
+    
     const blob = new Blob([dataString], {
         type: 'text/plain'
     });
 
     const url = URL.createObjectURL(blob);
 
-    // Create a link to download the file
+  
     const a = document.createElement('a');
     a.href = url;
     a.download = 'form-data.txt';
@@ -30,11 +30,11 @@ function downloadFormData() {
     a.click();
     document.body.removeChild(a);
 
-    // Revoke the object URL after download
+    
     URL.revokeObjectURL(url);
 }
 
 function thanks() {
-    // Redirect to another page after download
-    window.location.href = 'thankyou.html'; // Replace with your desired URL
+    
+    window.location.href = 'thankyou.html'; 
 }
