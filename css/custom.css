@@ -1,0 +1,90 @@
+/*navbar custom layout and font */
+.navbar-custom {
+    background-color:rgb(3, 67, 92);
+    font-family: 'Comic Sans MS' ;
+}
+
+.card {
+    border: none ;
+}
+
+.container .my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.card-body {
+    text-align: center;
+    background-color: rgb(5, 68, 94);
+    color: white;
+    font-family: 'Comic Sans MS';
+}
+
+.card-title {
+    font-size: 1.5rem;  
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    font-family: 'Comic Sans MS';
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.hero-image {
+
+    background-image:
+    url("../images/hero_image.jpeg");
+    
+    height: 30vh;
+    background-position:center ;
+    background-image: no-repeat;
+    background-size: cover;
+}
+
+
+
+.hero-text h1 {
+    font-weight:bold;
+    color: rgb(2, 196, 255);
+    text-transform: uppercase;
+    font-family: 'Comic Sans MS';
+}
+
+.hero-text p {
+    font-weight:bold;
+    color: rgb(253, 253, 253);
+    font-family: 'Comic Sans MS';
+}
+
+.card-footer {
+    font-weight: bold;
+    background-color: rgba(24, 202, 233, 0.829);
+}
+
+.footer {
+   position:fixed;
+   left:20px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;
+   margin-top:auto
+}
+
+.staff-img {
+  width: 100%;
+  height: auto;      
+  max-height: 250px; 
+  object-fit: contain;
+}
